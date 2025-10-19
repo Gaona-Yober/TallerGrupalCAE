@@ -34,12 +34,12 @@ public class Ticket {
             this.estado = estadoValido;
             System.out.println("Estado cambiado a: " + estadoValido);
         } catch (IllegalArgumentException e) {
-            System.out.println("Estado no válido: " + nuevoEstado + ". No se realizó el cambio.");
+            System.out.println("Estado no válido: " + nuevoEstado + ". No se realizo el cambio.");
         }
     }
 
     public void mostrarHistorial() {
-        System.out.println("=== Historial del Ticket ===");
+        System.out.println("Historial del Ticket");
         System.out.println("ID: " + id);
         System.out.println("Estudiante: " + nombreEstudiante);
         System.out.println("Estado actual: " + estado);
